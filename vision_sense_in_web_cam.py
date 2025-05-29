@@ -6,8 +6,6 @@ import math
 cam=cv2.VideoCapture(0)
 model=YOLO('yolov8n.pt')
 
-
-
 while True:
     value,clips=cam.read()
     results=model(clips,stream=True)

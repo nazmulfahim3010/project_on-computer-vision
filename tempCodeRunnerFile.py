@@ -11,6 +11,7 @@ model = YOLO('yolov8s.pt')  # Try 'yolov8m.pt' for better results
 cam.set(3, 1080)
 cam.set(4, 720)
 
+
 while True:
     # Capture frame
     value, clips = cam.read()
