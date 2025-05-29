@@ -9,3 +9,4 @@ cv.resizeWindow('fam', 500, 500)  # Set custom window size
 cv.waitKey(0)
 cv.destroyAllWindows()
 
+
